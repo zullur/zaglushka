@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: #1a1a1a;
   background: radial-gradient(circle at center, #fcd609 0%, #f6bc07 100%);
@@ -86,6 +86,7 @@ ul {
 }
 
 .hero__title {
+  font-family: 'Unbounded', sans-serif;
   font-size: clamp(1.8rem, 4.5vw, 3.8rem);
   font-weight: 900;
   line-height: 1.05;
@@ -93,6 +94,7 @@ ul {
 }
 
 .hero__title2 {
+  font-family: 'Unbounded', sans-serif;
   font-size: clamp(1.4rem, 3vw, 2.8rem);
   font-weight: 700;
   line-height: 1.05;
@@ -224,7 +226,7 @@ ul {
   color: #fff;
   text-align: center;
   padding: 14px 24px;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.04em;
   flex-shrink: 0;
