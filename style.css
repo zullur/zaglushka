@@ -95,7 +95,7 @@ ul {
 
 .hero__title2 {
   font-family: 'Unbounded', sans-serif;
-  font-size: clamp(1.4rem, 3.08vw, 2.9rem);
+  font-size: clamp(1.22rem, 3.08vw, 2.9rem);
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -232,6 +232,14 @@ ul {
   flex-shrink: 0;
 }
 
+._desktop {
+  display: block;
+}
+
+._mobile {
+  display: none;
+}
+
 /* ============================================================
    Responsive
    ============================================================ */
@@ -284,6 +292,14 @@ ul {
 }
 
 @media (max-width: 480px) {
+  ._desktop {
+    display: none;
+  }
+
+  ._mobile {
+    display: block;
+  }
+
   .header {
     padding: 16px 16px 0;
   }
